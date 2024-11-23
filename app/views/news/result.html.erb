@@ -1,0 +1,14 @@
+<h1>Verification Result</h1>
+
+<% if @error_message %>
+  <div style="color: red;">
+    <p><strong>Error:</strong> <%= @error_message %></p>
+  </div>
+<% else %>
+  <div style="color: green;">
+    <p><strong>Result:</strong> <%= @result %></p>
+    <p><strong>Moral Category:</strong> <%= @moral_category %></p>
+  </div>
+<% end %>
+
+<%= link_to "Verify Another News", root_path %>

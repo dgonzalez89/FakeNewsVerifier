@@ -1,0 +1,22 @@
+<p>
+  <strong>Title:</strong>
+  <%= @news.title %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @news.content %>
+</p>
+
+<p>
+  <strong>Result:</strong>
+  <%= @news.result ? "True News" : "Fake News" %>
+</p>
+
+<p>
+  <strong>Moral Category:</strong>
+  <%= @news.moral_category %>
+</p>
+
+<%= link_to 'Edit', edit_news_path(@news) %> |
+<%= link_to 'Back', news_index_path %>
