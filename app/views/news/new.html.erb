@@ -1,5 +1,13 @@
 <h1>Fake News Verifier</h1>
 
+<p>
+  Welcome to the Fake News Verifier! This tool uses AI to analyze and determine whether the content you provide is true or fake based on available data.
+</p>
+
+<p style="color: red; font-weight: bold;">
+  <strong>Warning:</strong> Please note that AI models, including the one used here, may have biases or limitations, especially with sensitive topics. The analysis provided is based on historical data and the models training and may not always reflect real-world facts or perspectives. Always cross-check results with trusted sources.
+</p>
+
 <%= form_with url: verify_path, method: :post, local: true, data: { turbo: false } do |form| %>
   <div>
     <%= form.label :content, "Enter news content:" %><br>
