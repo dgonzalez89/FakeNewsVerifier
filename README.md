@@ -14,7 +14,6 @@ This is a Ruby on Rails application to verify news content using OpenAI's GPT mo
 Try different types of news content (e.g., political, scientific, health-related) and check how the results vary. Based on the model’s performance, you may want to adjust the templates and improve the prompts further.
 
 ## Maximizing the Effectiveness of the Fake News Verifier
-The Fake News Verifier leverages advanced AI prompt engineering to enhance the accuracy and relevance of its results. Here’s how you can get the best out of the prompt mechanism:
 
 1. Provide Clear and Concise News Content
 To get the most accurate result, ensure that the news content you enter is clear and complete. Avoid ambiguous language or incomplete articles, as the AI may not be able to provide a comprehensive analysis based on unclear inputs.
